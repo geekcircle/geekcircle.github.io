@@ -1,0 +1,13 @@
+site_name: GeekCircle-极客圈
+nav:
+    - Python: index.md
+    - 机器学习: about.md
+    - Documents:
+      - Usage: Documents/index.md
+      - Tutorial: o.md
+theme:
+    name: material
+    custom_dir: 'material/'
+extra:
+  disqus: geekcircle
+repo_url: https://github.com/geekcircle
