@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# GeekCircle 极客圈
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+## 推荐
 
-## Commands
+- [极客兔兔的博客](https://geektutu.com)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## Star
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [Github - 机器学习笔试Q&A](https://github.com/geekcircle/machine-learning-interview-qa)
