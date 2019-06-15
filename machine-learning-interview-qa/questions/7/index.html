@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+
+<head><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="description" content="GeekCircle-极客圈的官方网站，致力于分享原创、有价值的编程技术。"><link rel="canonical" href="https://geekcircle.org/machine-learning-interview-qa/questions/7/"><meta name="author" content="GeekCircle"><meta name="lang:clipboard.copy" content="复制"><meta name="lang:clipboard.copied" content="已复制"><meta name="lang:search.language" content="ja"><meta name="lang:search.pipeline.stopwords" content="True"><meta name="lang:search.pipeline.trimmer" content="True"><meta name="lang:search.result.none" content="没有找到符合条件的结果"><meta name="lang:search.result.one" content="找到 1 个符合条件的结果"><meta name="lang:search.result.other" content="# 个符合条件的结果"><meta name="lang:search.tokenizer" content="[\uff0c\u3002]+"><link rel="shortcut icon" href="../../../icon.png">
+  <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.3.1">
+<title>Custom title goes here</title>
+<link rel="stylesheet" href="../../../assets/stylesheets/application.4031d38b.css"><script src="../../../assets/javascripts/modernizr.74668098.js"></script><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=swap">
+  <style>
+    body,
+    input {
+      font-family:"Roboto",
+      "Helvetica Neue",
+      Helvetica,
+      Arial,
+      sans-serif
+    }
+
+    code,
+    kbd,
+    pre {
+      font-family:"Roboto Mono",
+      "Courier New",
+      Courier,
+      monospace
+    }
+  </style><link rel="stylesheet" href="../../../assets/fonts/material-icons.css"></head><body dir="ltr"><svg class="md-svg">
+      <defs><svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg></defs>
+    </svg> <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off"> <input
+      class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off"> <label
+      class="md-overlay" data-md-component="overlay" for="__drawer"></label><a
+      href="#7" tabindex="1" class="md-skip">跳转至 </a><header class="md-header" data-md-component="header"><nav class="md-header-nav md-grid"><div class="md-flex"><div class="md-flex__cell md-flex__cell--shrink"><a href="https://geekcircle.org" title="GeekCircle-极客圈" class="md-header-nav__button md-logo"><img src="../../../icon.png" width="24" height="24"></a></div><div class="md-flex__cell md-flex__cell--shrink"><label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label></div><div class="md-flex__cell md-flex__cell--stretch"><div class="md-flex__ellipsis md-header-nav__title" data-md-component="title"><span class="md-header-nav__topic">GeekCircle-极客圈</span><span class="md-header-nav__topic">7.熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是</span></div></div><div class="md-flex__cell md-flex__cell--shrink"><label class="md-icon md-icon--search md-header-nav__button" for="__search"></label><div class="md-search" data-md-component="search" role="dialog"><label class="md-search__overlay" for="__search"></label><div class="md-search__inner" role="search"><form class="md-search__form" name="search"><input type="text" class="md-search__input" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active"> <label class="md-icon md-search__icon" for="__search"></label> <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">&#xE5CD;</button></form><div class="md-search__output"><div class="md-search__scrollwrap" data-md-scrollfix><div class="md-search-result" data-md-component="result"><div class="md-search-result__meta">键入以开始搜索</div><ol class="md-search-result__list"></ol></div></div></div></div></div></div><div class="md-flex__cell md-flex__cell--shrink"><div class="md-header-nav__source"><a href="https://github.com/geekcircle/" title="前往 Github 仓库" class="md-source" data-md-source="github"><div class="md-source__icon"><svg viewBox="0 0 24 24" width="24" height="24"><use xlink:href="#__github" width="24" height="24"></use></svg></div><div class="md-source__repository">GitHub</div></a></div></div></div></nav></header><div class="md-container"><nav class="md-tabs md-tabs--active" data-md-component="tabs"><div class="md-tabs__inner md-grid"><ul class="md-tabs__list"><li class="md-tabs__item"><a href="../../.." title="主页" class="md-tabs__link">主页</a></li><li class="md-tabs__item"><a href="../../" title="机器学习Q&A" class="md-tabs__link md-tabs__link--active">机器学习Q&A</a></li></ul></div></nav><main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container"><div
+            class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner"><nav class="md-nav md-nav--primary" data-md-level="0"><label class="md-nav__title md-nav__title--site" for="__drawer"><a href="https://geekcircle.org" title="GeekCircle-极客圈" class="md-nav__button md-logo"><img src="../../../icon.png" width="48" height="48"></a>GeekCircle-极客圈</label><div class="md-nav__source"><a href="https://github.com/geekcircle/" title="前往 Github 仓库" class="md-source" data-md-source="github"><div class="md-source__icon"><svg viewBox="0 0 24 24" width="24" height="24"><use xlink:href="#__github" width="24" height="24"></use></svg></div><div class="md-source__repository">GitHub</div></a></div><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../.." title="主页" class="md-nav__link">主页</a></li><li class="md-nav__item md-nav__item--active md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked><label class="md-nav__link" for="nav-2">机器学习Q&A</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-2">机器学习Q&A</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../" title="序言" class="md-nav__link">序言</a></li><li class="md-nav__item"><a href="../1/" title="1.如何处理特征向量的缺失值" class="md-nav__link">1.如何处理特征向量的缺失值</a></li><li class="md-nav__item"><a href="../2/" title="2.请简要说说一个完整机器学习项目的流程" class="md-nav__link">2.请简要说说一个完整机器学习项目的流程</a></li><li class="md-nav__item"><a href="../3/" title="3.某超市研究销售记录发现买啤酒的人很大概率也会买尿布，这属于数据挖掘的哪类问题" class="md-nav__link">3.某超市研究销售记录发现买啤酒的人很大概率也会买尿布，这属于数据挖掘的哪类问题</a></li><li class="md-nav__item"><a href="../4/" title="4.余弦相似与欧氏距离有什么区别和联系" class="md-nav__link">4.余弦相似与欧氏距离有什么区别和联系</a></li><li class="md-nav__item"><a href="../5/" title="5.下面哪个不属于数据的属性类型" class="md-nav__link">5.下面哪个不属于数据的属性类型</a></li><li class="md-nav__item"><a href="../6/" title="6.监督学习和无监督学习" class="md-nav__link">6.监督学习和无监督学习</a></li><li class="md-nav__item md-nav__item--active"><input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc"><label class="md-nav__link md-nav__link--active" for="__toc">7.熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是</label><a href="./" title="7.熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是" class="md-nav__link md-nav__link--active">7.熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是</a><nav class="md-nav md-nav--secondary"><label class="md-nav__title" for="__toc">目录</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="#_1" title="信息熵" class="md-nav__link">信息熵</a></li></ul></nav></li><li class="md-nav__item"><a href="../8/" title="8.数据清洗与特征处理" class="md-nav__link">8.数据清洗与特征处理</a></li><li class="md-nav__item"><a href="../9/" title="9.猜测这种划分最可能是什么聚类算法的结果" class="md-nav__link">9.猜测这种划分最可能是什么聚类算法的结果</a></li><li class="md-nav__item"><a href="../10/" title="10.支持向量机(SVM)中的支持向量是什么意思" class="md-nav__link">10.支持向量机(SVM)中的支持向量是什么意思</a></li><li class="md-nav__item"><a href="../11/" title="11.精确率(precision)和召回率(recall)" class="md-nav__link">11.精确率(precision)和召回率(recall)</a></li><li class="md-nav__item"><a href="../12/" title="12.数据挖掘中如何判断关联规则有效性" class="md-nav__link">12.数据挖掘中如何判断关联规则有效性</a></li><li class="md-nav__item"><a href="../13/" title="13.朴素贝叶斯分类某个类别概率为0怎么办" class="md-nav__link">13.朴素贝叶斯分类某个类别概率为0怎么办</a></li><li class="md-nav__item"><a href="../14/" title="14.决策树" class="md-nav__link">14.决策树</a></li></ul></nav></li></ul></nav></div>
+            </div>
+          </div><div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner"><nav class="md-nav md-nav--secondary"><label class="md-nav__title" for="__toc">目录</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="#_1" title="信息熵" class="md-nav__link">信息熵</a></li></ul></nav></div>
+            </div>
+          </div><div class="md-content">
+            <article class="md-content__inner md-typeset"><a
+                href="https://github.com/geekcircle/edit/master/docs/machine-learning-interview-qa/questions/7.md" title="编辑此页"
+                class="md-icon md-content__icon">&#xE3C9;</a><h1 id="7">7. 熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是<a class="headerlink" href="#7" title="Permanent link">&para;</a></h1>
+<iframe src="https://ghbtns.com/github-btn.html?user=geekcircle&repo=machine-learning-interview-qa&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
+<p>2.6比特</p>
+<h2 id="_1">信息熵<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>如何计算信息量的多少？在日常生活中，极少发生的事件一旦发生是容易引起人们关注的，而司空见惯的事不会引起注意，也就是说，极少见的事件所带来的信息量多。如果用统计学的术语来描述，就是出现概率小的事件信息量多。因此，事件出现得概率越小，信息量愈大。即信息量的多少是与事件发生频繁(即概率大小)成反比。  </p>
+<p>1.如已知事件Xi已发生，则表示Xi所含有或所提供的信息量  </p>
+<p>H(Xi) = − logP(Xi)</p>
+<p>例题：若估计在一次国际象棋比赛中谢军获得冠军的可能性为0.1(记为事件A)，而在另一次国际象棋比赛中她得到冠军的可能性为0.9(记为事件B)。试分别计算当你得知她获得冠军时，从这两个事件中获得的信息量各为多少？</p>
+<p>H(A)=-log2 P(0.1)≈3.32(比特)</p>
+<p>H(B)=-log2 P(0.9)≈0.152(比特)</p>
+<p>2.统计信息量的计算公式为：
+H(X)=<span><span class="MathJax_Preview"><span><span class="MathJax_Preview">sum^{n}_{i=1}P(Xi)log P(Xi)</span><script type="math/tex">sum^{n}_{i=1}P(Xi)log P(Xi)</script></span></span><script type="math/tex"><span><span class="MathJax_Preview">sum^{n}_{i=1}P(Xi)log P(Xi)</span><script type="math/tex">sum^{n}_{i=1}P(Xi)log P(Xi)</script></span></script></span></p>
+<p>Xi —— 表示第i个状态(总共有n种状态)；</p>
+<p>P(Xi)——表示第i个状态出现的概率；</p>
+<p>H(X)——表示用以消除这个事物的不确定性所需要的信息量。</p>
+<p>例题：向空中投掷硬币，落地后有两种可能的状态，一个是正面朝上，另一个是反面朝上，每个状态出现的概率为&frac12;。如投掷均匀的正六面体的骰子，则可能会出现的状态有6个，每一个状态出现的概率均为&#8537;。试通过计算来比较状态的不肯定性与硬币状态的不肯定性的大小。</p>
+<p>H(硬币)= -\sum^{n}_{i=1}P(Xi)log P(Xi)</p>
+<p>= -(2×&frac12;)×logP2(&frac12;)≈1(比特)</p>
+<p>H(骰子)= -\sum^{n}_{i=1}P(Xi)log P(Xi)</p>
+<p>= -6×(&#8537;)×logP2(&#8537;)≈2.6(比特)</p>
+<p>由以上计算可以得出两个推论：</p>
+<p>[推论1] 当且仅当某个P(Xi)=1，其余的都等于0时， H(X)= 0。</p>
+<p>[推论2]当且仅当某个P(Xi)=1/n，i=1， 2，……， n时，H(X)有极大值log n。
+数值属性是可度量的量，用整数或实数值表示，有区间标度和比率标度两种类型。</p><style>
+    #geekcircle-recommend {
+        margin-top: 50px;
+        margin-bottom: 5px;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    #geekcircle-recommend .item {
+        width: 33%;
+        float: left;
+        padding: 10px;
+    }
+</style>
+<div id="geekcircle-recommend"><div class="item">
+        <a href="https://chuangke.aliyun.com/invite?userCode=9oxyzl54" target="_blank">
+            <img src="https://geekcircle.orgimg/aliyun.jpg" alt="阿里云">
+        </a>
+    </div><div class="item">
+        <a href="https://cloud.tencent.com/redirect.php?redirect=1042&cps_key=97dbd80a76752bf0f307139eac368330&from=console" target="_blank">
+            <img src="https://geekcircle.orgimg/tencent.jpg" alt="腾讯云">
+        </a>
+    </div></div>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?e3408dec0d184dc956540dd05207c65c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></article>
+          </div>
+        </div>
+      </main><footer class="md-footer"><div class="md-footer-nav"><nav class="md-footer-nav__inner md-grid"><a href="../6/" title="6.监督学习和无监督学习" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev"><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-back md-footer-nav__button"></i></div><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">后退</span>6.监督学习和无监督学习</span></div></a><a href="../8/" title="8.数据清洗与特征处理" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next"><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">前进</span>8.数据清洗与特征处理</span></div><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i></div></a></nav></div><div class="md-footer-meta md-typeset"><div class="md-footer-meta__inner md-grid"><div class="md-footer-copyright"><div class="md-footer-copyright__highlight">Copyright &copy; 2016 - 2019 GeekCircle</div>powered by <a href="https://www.mkdocs.org">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></div></div></div></footer></div><script src="../../../assets/javascripts/application.b260a35d.js"></script><script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script><script src="../../../assets/javascripts/lunr/tinyseg.js"></script><script src="../../../assets/javascripts/lunr/lunr.ja.js"></script><script>app.initialize({ version: "1.0.4", url: { base: "../../.." } })</script></body>
+
+</html>
