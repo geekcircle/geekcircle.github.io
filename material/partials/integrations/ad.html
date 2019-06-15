@@ -1,0 +1,33 @@
+<style>
+    #geekcircle-recommend {
+        margin-top: 50px;
+        margin-bottom: 5px;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    #geekcircle-recommend .item {
+        width: 33%;
+        float: left;
+        padding: 10px;
+    }
+</style>
+<div id="geekcircle-recommend">
+    {%- for item in config.recommend -%}
+    <div class="item">
+        <a href="{{item.url}}" target="_blank">
+            <img src="{{config.site_url}}{{item.img}}" alt="{{item.name}}">
+        </a>
+    </div>
+    {%- endfor -%}
+</div>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?e3408dec0d184dc956540dd05207c65c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
