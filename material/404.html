@@ -10,6 +10,9 @@
         if (/\/machine-learning-interview-qa\/questions\/[0-9]{1,2}\.html/.test(path)) {
             window.location.href = path.replace('.html', '/');
         }
+        if (/\/stackoverflow-python-top-qa\/stackoverflow\/[0-9]{1,2}.+\.html/.test(path)) {
+            window.location.href = path.replace('/stackoverflow/', '/').replace('.html', '/');
+        }
     })();
 </script>
 {% endblock %}
