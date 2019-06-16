@@ -8,10 +8,11 @@
     (function () {
         var path = window.location.pathname;
         if (/\/machine-learning-interview-qa\/questions\/[0-9]{1,2}\.html/.test(path)) {
-            window.location.href = path.replace('.html', '/');
+            window.location.href = path.replace('/questions/', '/').replace('.html', '/');
         }
-        if (/\/stackoverflow-python-top-qa\/stackoverflow\/[0-9]{1,2}.+\.html/.test(path)) {
-            window.location.href = path.replace('/stackoverflow/', '/').replace('.html', '/');
+        if (/\/stackoverflow-python-top-qa\/stackoverflow\/[0-9]{1,2}\..+\.html/.test(path)) {
+            var question = '.' + path.split('.')[1] + '.html';
+            window.location.href = path.replace('/stackoverflow/', '/').replace(question, '/');
         }
     })();
 </script>

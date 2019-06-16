@@ -6,48 +6,48 @@ nav:
   - 主页: index.md
   - 机器学习Q&A:
     - 序言: machine-learning-interview-qa/README.md
-    - 1.如何处理特征向量的缺失值: machine-learning-interview-qa/questions/1.md
-    - 2.请简要说说一个完整机器学习项目的流程: machine-learning-interview-qa/questions/2.md
-    - 3.某超市研究销售记录发现买啤酒的人很大概率也会买尿布，这属于数据挖掘的哪类问题: machine-learning-interview-qa/questions/3.md
-    - 4.余弦相似与欧氏距离有什么区别和联系: machine-learning-interview-qa/questions/4.md
-    - 5.下面哪个不属于数据的属性类型: machine-learning-interview-qa/questions/5.md
-    - 6.监督学习和无监督学习: machine-learning-interview-qa/questions/6.md
-    - 7.熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是: machine-learning-interview-qa/questions/7.md
-    - 8.数据清洗与特征处理: machine-learning-interview-qa/questions/8.md
-    - 9.猜测这种划分最可能是什么聚类算法的结果: machine-learning-interview-qa/questions/9.md
-    - 10.支持向量机(SVM)中的支持向量是什么意思: machine-learning-interview-qa/questions/10.md
-    - 11.精确率(precision)和召回率(recall): machine-learning-interview-qa/questions/11.md
-    - 12.数据挖掘中如何判断关联规则有效性: machine-learning-interview-qa/questions/12.md
-    - 13.朴素贝叶斯分类某个类别概率为0怎么办: machine-learning-interview-qa/questions/13.md
-    - 14.决策树: machine-learning-interview-qa/questions/14.md
+    - 1.如何处理特征向量的缺失值: machine-learning-interview-qa/1.md
+    - 2.请简要说说一个完整机器学习项目的流程: machine-learning-interview-qa/2.md
+    - 3.某超市研究销售记录发现买啤酒的人很大概率也会买尿布，这属于数据挖掘的哪类问题: machine-learning-interview-qa/3.md
+    - 4.余弦相似与欧氏距离有什么区别和联系: machine-learning-interview-qa/4.md
+    - 5.下面哪个不属于数据的属性类型: machine-learning-interview-qa/5.md
+    - 6.监督学习和无监督学习: machine-learning-interview-qa/6.md
+    - 7.熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是: machine-learning-interview-qa/7.md
+    - 8.数据清洗与特征处理: machine-learning-interview-qa/8.md
+    - 9.猜测这种划分最可能是什么聚类算法的结果: machine-learning-interview-qa/9.md
+    - 10.支持向量机(SVM)中的支持向量是什么意思: machine-learning-interview-qa/10.md
+    - 11.精确率(precision)和召回率(recall): machine-learning-interview-qa/11.md
+    - 12.数据挖掘中如何判断关联规则有效性: machine-learning-interview-qa/12.md
+    - 13.朴素贝叶斯分类某个类别概率为0怎么办: machine-learning-interview-qa/13.md
+    - 14.决策树: machine-learning-interview-qa/14.md
   - Python Q&A:
     - 序言: stackoverflow-python-top-qa/README.md
-    - 1.yield关键字的作用: stackoverflow-python-top-qa/1.what-does-the-yield-keyword-do.md
-    - 2.什么是元类（metaclass）: stackoverflow-python-top-qa/2.what-are-metaclasses-in-python.md
-    - 3.Python中有三目运算符吗: stackoverflow-python-top-qa/3.does-python-have-a-ternary-conditional-operator.md
-    - 4.如何检查一个文件是否存在: stackoverflow-python-top-qa/4.how-to-check-whether-a-file-exists.md
-    - 5.if name == "main"这句话做了什么事情: stackoverflow-python-top-qa/5.what-does-if-name-main-do.md
-    - 6.在Python中调用外部命令: stackoverflow-python-top-qa/6.calling-an-external-command-in-python.md
-    - 7.如何用一行代码合并2个字典: stackoverflow-python-top-qa/7.how-to-merge-two-dictionaries-in-a-single-expression.md
-    - 8.如何创建一个不存在的目录: stackoverflow-python-top-qa/8.how-can-i-create-a-directory-if-it-does-not-exist.md
-    - 9.如何根据值对字典排序: stackoverflow-python-top-qa/9.how-do-i-sort-a-dictionary-by-value.md
-    - 10.Python中有判断字符串包含(contains)子串的方法吗？: stackoverflow-python-top-qa/10.does-python-have-a-string-contains-substring-method.md
-    - 11.如何列出一个文件夹下的所有文件: stackoverflow-python-top-qa/11.how-do-i-list-all-files-of-a-directory.md
-    - 12.如何检查列表是否为空: stackoverflow-python-top-qa/12.how-do-i-check-if-a-list-is-empty.md
-    - 13.list方法append()与extend()的区别: stackoverflow-python-top-qa/13.difference-between-append-vs-extend-list-methods-in-python.md
-    - 14.Python中@staticmethod与@classmethod的区别: stackoverflow-python-top-qa/14.what-is-the-difference-between-staticmethod-and-classmethod-in-python.md
-    - 15.如何访问for循环中的下标: stackoverflow-python-top-qa/15.accessing-the-index-in-for-loops.md
-    - 16.如何在函数中使用全局变量: stackoverflow-python-top-qa/16.using-global-variables-in-a-function.md
-    - 17.如何创建连续调用的函数装饰器: stackoverflow-python-top-qa/17.how-to-make-a-chain-of-function-decorators.md
-    - 18.理解python的切片符号: stackoverflow-python-top-qa/18.understanding-pythons-slice-notation.md
-    - 19.Python中如何在列表中找到某个元素的下标: stackoverflow-python-top-qa/19.finding-the-index-of-an-item-given-a-list-containing-it-in-python.md
-    - 20.字典如何判断键已存在: stackoverflow-python-top-qa/20.check-if-a-given-key-already-exists-in-a-dictionary.md
-    - 21.如何在Windows上安装pip: stackoverflow-python-top-qa/21.how-do-i-install-pip-on-windows.md
-    - 22.使用'for'循环迭代字典: stackoverflow-python-top-qa/22.iterating-over-dictionaries-using-for-loops.md
-    - 23.__str__和__repr__的区别: stackoverflow-python-top-qa/23.difference-between-str-and-repr.md
-    - 24.Python中如何展开嵌套列表: stackoverflow-python-top-qa/24.making-a-flat-list-out-of-list-of-lists-in-python.md
-    - 25.最小经验原则（POLA）与可变默认参数: stackoverflow-python-top-qa/25.least-astonishment-and-the-mutable-default-argument.md
-    - 26.如何按引用传值: stackoverflow-python-top-qa/26.how-do-i-pass-a-variable-by-reference.md
+    - 1.yield关键字的作用: stackoverflow-python-top-qa/1.md
+    - 2.什么是元类（metaclass）: stackoverflow-python-top-qa/2.md
+    - 3.Python中有三目运算符吗: stackoverflow-python-top-qa/3.md
+    - 4.如何检查一个文件是否存在: stackoverflow-python-top-qa/4.md
+    - 5.if name == "main"这句话做了什么事情: stackoverflow-python-top-qa/5.md
+    - 6.在Python中调用外部命令: stackoverflow-python-top-qa/6.md
+    - 7.如何用一行代码合并2个字典: stackoverflow-python-top-qa/7.md
+    - 8.如何创建一个不存在的目录: stackoverflow-python-top-qa/8.md
+    - 9.如何根据值对字典排序: stackoverflow-python-top-qa/9.md
+    - 10.Python中有判断字符串包含(contains)子串的方法吗？: stackoverflow-python-top-qa/10.md
+    - 11.如何列出一个文件夹下的所有文件: stackoverflow-python-top-qa/11.md
+    - 12.如何检查列表是否为空: stackoverflow-python-top-qa/12.md
+    - 13.list方法append()与extend()的区别: stackoverflow-python-top-qa/13.md
+    - 14.Python中@staticmethod与@classmethod的区别: stackoverflow-python-top-qa/14.md
+    - 15.如何访问for循环中的下标: stackoverflow-python-top-qa/15.md
+    - 16.如何在函数中使用全局变量: stackoverflow-python-top-qa/16.md
+    - 17.如何创建连续调用的函数装饰器: stackoverflow-python-top-qa/17.md
+    - 18.理解python的切片符号: stackoverflow-python-top-qa/18.md
+    - 19.Python中如何在列表中找到某个元素的下标: stackoverflow-python-top-qa/19.md
+    - 20.字典如何判断键已存在: stackoverflow-python-top-qa/20.md
+    - 21.如何在Windows上安装pip: stackoverflow-python-top-qa/21.md
+    - 22.使用'for'循环迭代字典: stackoverflow-python-top-qa/22.md
+    - 23.__str__和__repr__的区别: stackoverflow-python-top-qa/23.md
+    - 24.Python中如何展开嵌套列表: stackoverflow-python-top-qa/24.md
+    - 25.最小经验原则（POLA）与可变默认参数: stackoverflow-python-top-qa/25.md
+    - 26.如何按引用传值: stackoverflow-python-top-qa/26.md
 
 
 copyright: 'Copyright &copy; 2016 - 2019 GeekCircle'
