@@ -1,3 +1,4 @@
+mkdocs build
 rm -rf geekcircle.github.io
 mkdir -p geekcircle.github.io
 cd geekcircle.github.io
